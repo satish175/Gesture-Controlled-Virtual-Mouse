@@ -135,7 +135,7 @@ def respond(voice_data):
         
     
     # DYNAMIC CONTROLS
-    elif 'launch gesture recognition' in voice_data:
+    elif 'launch mouse' in voice_data:
         if Gesture_Controller.GestureController.gc_mode:
             reply('Gesture recognition is already active')
         else:

@@ -6,4 +6,4 @@
                         mp_drawing.draw_landmarks(image, hand_landmarks, mp_hands.HAND_CONNECTIONS)
                 else:
                     Controller.prev_hand = None
-                cv2.imshow('Gesture Controller', imag
+                cv2.imshow('Gesture Controller', image)
